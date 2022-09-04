@@ -3,11 +3,57 @@ body{
     background-color: #948B89;
 }
 
-.nav{
+.inner-navbar{
+    margin: 0 auto;
+    width: 1170px;
+    list-style-type: none;
+}
+
+.inner-navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.inner-navbar ul li{
+    float: none;
+    display: inline block;
+    margin-left: 10em;
+}
+
+.inner-navbar ul li:nth-child(1){
+    float: left;
+}
+.inner-navbar ul li:nth-child(2){
+    float: left;
+   
+}
+.inner-navbar ul li:nth-child(3){
+    float: right;
+  
+}
+
+.inner-navbar ul li:nth-child(4){
+    float: right;
     
 }
 
-.nav a{
-    color: white;
-    text-decoration: none;
+.inner-navbar ul li a{
+ color: white;
+ font-size: 1.7em;
+ text-transform: uppercase; 
+ text-decoration: none;
+ display: block;
+ padding: 10px;
+ 
+}
+
+.inner-navbar ul li a:hover{
+
+}
+
+.download_btn{
+    float: right;
+    margin;
 }
