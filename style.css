@@ -1,11 +1,75 @@
+/*Farver
+Grå ish: #A6A4A8
+Lilla ish: #E8DCF1
+Pink ish: #F8B4B4
+Mørke lilla/brun: #726E75
+Mellem mørk brun: #948b89
+lyse brun: #b6a39e
+tyrkis ish: #9dd9d2
+mørke lilla/blå: #444054
+hvid: #FFFFFF
+*/
+
+/*font*/
+@font-face{
+    font-family: Sitka;
+    src:url(/Fonts/Sitka.ttc)
+}
+
+
 body{
     
     background-color: #948B89;
 }
 
+/*forside css*/
+.Intro{
+    width: 1170px;
+}
+
+.title-txt, .intro-txt{
+    color: white;
+}
+
+.title-txt{
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 400;
+    font-style: italic; 
+    margin-left: 190px;
+    font-size: 80px;
+}
+
+.intro-txt{
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    margin-right: 166px;
+    position: absolute;
+    margin-left: 815px;
+}
+
+/*navbar*/
+#nav{
+    width: 100%;
+    position: relative;
+}
+
+.logo_area{
+    position: absolute;
+    left: 43%;
+    top: 0;
+    content:"";
+}
+
+img{
+    width: 230px;
+    height: 110px;
+}
+
 .inner-navbar{
     margin: 0 auto;
-    width: 1170px;
+    width: 70%;
     list-style-type: none;
 }
 
@@ -19,7 +83,7 @@ body{
 .inner-navbar ul li{
     float: none;
     display: inline block;
-    margin-left: 10em;
+    
 }
 
 .inner-navbar ul li:nth-child(1){
@@ -45,15 +109,15 @@ body{
  text-transform: uppercase; 
  text-decoration: none;
  display: block;
- padding: 10px;
+ padding: 30px 80px;
+ font-family: Sitka, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
  
 }
 
 .inner-navbar ul li a:hover{
-
+    color: #F8B4B4;
 }
 
-.download_btn{
-    float: right;
-    margin;
-}
+
+
+
