@@ -24,7 +24,7 @@ body{
 
 /*index css*/
 .Intro{
-    width: 1170px;
+    width: 1110px;
 }
 
 .title-txt, .intro-txt{
@@ -47,6 +47,33 @@ body{
     margin-right: 166px;
     position: absolute;
     margin-left: 815px;
+    max-width: 800px;
+}
+
+img{
+    background: none;
+    margin: 10px 20px 10px 20px;
+    position: absolute;
+
+}
+
+.profile{
+    margin-left: 300px;
+    height: 400px;
+    width: 400px;
+}
+
+.fp_button{
+    margin-right: 366px;
+    position: absolute;
+    margin-left: 1350px;
+    margin-top: 250px;
+    
+}
+
+.button_picture{
+    width: 135px;
+    height: 90px;
 }
 
 .forside-photo{
