@@ -22,7 +22,7 @@ body{
     background-color: #948B89;
 }
 
-/*forside css*/
+/*index css*/
 .Intro{
     width: 1170px;
 }
@@ -47,6 +47,72 @@ body{
     margin-right: 166px;
     position: absolute;
     margin-left: 815px;
+}
+
+.forside-photo{
+
+}
+
+/*forside*/
+.Intro-forside{
+    width: 1300px;
+}
+
+
+.forside-title{
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 400;
+    font-style: italic; 
+    margin-left: 300px;
+    font-size: 80px;
+    position: absolute;
+    margin-top: 150px;
+
+}
+
+.forside-title, .forside-txt{
+    color: white;
+}
+
+.forside-txt{
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    margin-right: 200px;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: 200px;
+} 
+
+.img{
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin-top: 170px;
+    margin-left: 320px;
+    display: inline;
+
+}
+
+.btn-forside{
+    display: inline;
+}
+
+button{
+    border-radius: 15px;
+    width: 198px;
+    padding-top: 1px;
+    margin-left: 120px;
+    margin-top: 300px;
+    border-color: transparent;
+    font-family: SitkaSubheading, Sitka Subheading;
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
 }
 
 /*navbar*/
