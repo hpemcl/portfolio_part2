@@ -45,6 +45,7 @@ body{
     opacity: 0.7;
     width: 307px;
     height: 260px;
+    position: fixed;
 }
 
 .background-pynt-left-buttom{
@@ -149,7 +150,7 @@ img{
   /*animation på loading page*/
 .loading-page{
     position: relative;
-    height: 10px;
+    height: 20px;
     width: 20%;
     border: 5px solid white;
     border-radius: 15px;
@@ -195,16 +196,6 @@ img{
     }
 }
 
-@keyframe fadeout{
-    100%{
-        opacity: 1;
-    }
-
-    0%{
-        opacity: 0;
-    }
-}
-
 
 .logo_area-loadingpage{
     position: absolute;
@@ -223,6 +214,10 @@ img{
     0%{
         opacity: 0;
       }
+    
+    50%{
+        opacity: 0.9;
+    }
     100%{
         opacity: 1;
     }
@@ -290,6 +285,285 @@ button{
 }
 
 p{
+    text-align: center;
+}
+
+/*row of pictures - forside*/
+* {
+    box-sizing: border-box;
+  }
+  
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    
+  }
+
+  /*billede 1*/
+.forside-billede-1{
+    position: absolute;
+    width: 239px;
+    height: 424.175px;
+    left: 350px;
+    top: 605px;
+    margin-bottom: 20px;
+  }
+
+.picturetext-billede-1{
+    position: absolute;
+    left: 470px;
+    top: 1030px;
+    margin-bottom: 20px; 
+
+}
+
+.billede-1-lokation{
+    font-family: noto sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: -60px;
+}
+
+.billede-1-kamera{
+    font-family: noto sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: -60px;
+    top: 40px;
+    width: 200px;
+    margin-bottom: 200px;
+}
+
+.icon-location-1{
+    height: 33.08px;
+    width: 24.83px;
+    right: 55px;
+    top: 16px;
+}
+
+.icon-camera-1{
+    height: 24.08px;
+    width: 24.83px;
+    right: 55px;
+    top: 60px;
+}
+
+/*billede 2*/
+.forside-billede-2{
+    position: absolute;
+    width: 239px;
+    height: 424.175px;
+    left: 650px;
+    top: 605px;
+    margin-bottom: 20px;
+}
+
+.picturetext-billede-2{
+    position: absolute;
+    left: 470px;
+    top: 1030px;
+    margin-bottom: 20px; 
+
+}
+
+.billede-2-lokation{
+    font-family: noto sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 240px;
+}
+
+.billede-2-kamera{
+    font-family: noto sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 240px;
+    top: 40px;
+    width: 200px;
+    margin-bottom: 200px;
+}
+
+.icon-location-2{
+    height: 33.08px;
+    width: 24.83px;
+    left: 180px;
+    top: 16px;
+}
+
+.icon-camera-2{
+    height: 24.08px;
+    width: 24.83px;
+    left: 180px;
+    top: 60px;
+}
+
+
+/*billede 3*/
+.forside-billede-3{
+    position: absolute;
+    width: 239px;
+    height: 424.175px;
+    right: 350px;
+    top: 605px;
+    margin-bottom: 20px;
+}
+
+.picturetext-billede-3{
+    position: absolute;
+    left: 470px;
+    top: 1030px;
+    margin-bottom: 20px; 
+
+}
+
+.billede-3-lokation{
+    font-family: noto sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 555px;
+}
+
+.billede-3-kamera{
+    font-family: noto sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 555px;
+    top: 40px;
+    width: 200px;
+    margin-bottom: 200px;
+}
+
+.icon-location-3{
+    height: 33.08px;
+    width: 24.83px;
+    left: 495px;
+    top: 16px;
+}
+
+.icon-camera-3{
+    height: 24.08px;
+    width: 24.83px;
+    left: 495px;
+    top: 60px;
+}
+
+
+
+/*billede 4*/
+.forside-billede-4{
+    position: absolute;
+    width: 239px;
+    height: 424.175px;
+    right: 660px;
+    top: 605px;
+    margin-bottom: 20px;
+}
+
+.picturetext-billede-4{
+    position: absolute;
+    left: 470px;
+    top: 1030px;
+    margin-bottom: 20px; 
+
+}
+
+.billede-4-lokation{
+    font-family: noto sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 870px;
+}
+
+.billede-4-kamera{
+    font-family: noto sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 870px;
+    top: 40px;
+    width: 200px;
+    margin-bottom: 200px;
+}
+
+.icon-location-4{
+    height: 33.08px;
+    width: 24.83px;
+    left: 805px;
+    top: 16px;
+}
+
+.icon-camera-4{
+    height: 24.08px;
+    width: 24.83px;
+    left: 805px;
+    top: 60px;
+}
+
+/*quote*/
+.quote{
+    position: relative;
+    justify-content: center;
+    top: 1093px;
+    left: 450px;
+}
+.quote-txt{
+    font-family:InkFree, Ink Free;
+    color: white;
+    font-weight: 100;
+    font-size: 80px;
+    max-width: 1000px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    
+
+}
+
+
+/*icon-genveje*/
+
+/*footer - forside*/
+.footer-forside{
+    color: white;
+    font-family: Sitka, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    padding-top: 12px;
+    
+}
+
+.credit-forside{
+    
+    display: block;
+    position: absolute;
+    border-top: 2px solid white;
+    bottom: -900px;
+    left: 0;
+    width: 100%;
     text-align: center;
 }
 
@@ -363,19 +637,17 @@ img{
 }
 
 
-/*footer*/
+/*footer
 .credit-txt{
     color: white;
     font-family: Sitka, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    display: block;
     position: fixed;
     border-top: 2px solid white;
     padding-top: 12px;
-    left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
 
 }
-
+*/
 
