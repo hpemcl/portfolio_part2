@@ -550,4 +550,100 @@ img{
 
 }
 
+/*bærbar version - 1500x908*/
+@media screen and (min-width: 1500px){
+    /*index - 1500x908*/
+    .intro-title{
+        font-size: 80px;
+        max-width: 1000px;
+    }
+
+    .intro-txt{
+        width: 1000px;
+        line-height: 1.5;
+    }
+
+    .button_picture{
+        width: 185px;
+        height: 137px;
+    }
+
+    /*loading page - 1500x908*/
+    .loading-page{
+        left: 775px;
+        top: 451px;
+    }
+
+    .logo_area-loadingpage{
+        left: 40%
+    }
+
+    /*forside - 1500x908*/
+    .forside-txt{
+        font-size: 35px;
+        left: 600px;
+    }
+
+    button{
+        left: 600px;
+        font-size: 30px;
+        width: 228px;
+        height: 43px;
+    }
+
+    .forside-title{
+        font-size: 100px;
+        margin-left: 322px;
+
+    }
+
+    .img{
+        width: 211px;
+        height: 245px;
+        left:325px;
+    }
+
+    .forside-billede-1{
+        width: 331px;
+        height: 580.175px;
+    }
+
+    .icon-location-1{
+        right: 302px;
+        top: 592px;
+    }
+
+    .billede-1-lokation{
+        top: 576px;
+    }
+
+    .icon-camera-1{
+        width: 32.83px;
+        right: 297px;
+        top: 646px;
+
+    }
+
+    .billede-1-kamera{
+        left: 69px;
+        top: 627px;
+    }
+
+    .quote > .quote-move{
+        left: 415px;
+        max-width: 1005px;
+}
+
+    .icon-github-white{
+        left: 1003px;
+    }
+
+    .icon-instagram-white{
+        left: 839px;
+    }
+
+    .icon-email-white{
+        left: 667px;
+    }
+    }
 
