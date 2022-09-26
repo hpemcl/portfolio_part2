@@ -550,8 +550,45 @@ img{
 
 }
 
+/*footer almindelig*/
+.body-footer{
+    background-color: #a6a4a8;
+    padding: 10px 10px 300px 10px;
+    width: 100%;
+    margin-left: -8px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    position: absolute;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container-footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left-top {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 25%;
+  }
+
+  
+  .flex-item-right-top {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 25%;
+  }
+
+  
+
 /*bærbar version - 1500x908*/
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1600px) {
     /*index - 1500x908*/
     .intro-title{
         font-size: 80px;
@@ -632,7 +669,7 @@ img{
     .quote > .quote-move{
         left: 415px;
         max-width: 1005px;
-}
+    }
 
     .icon-github-white{
         left: 1003px;
@@ -645,6 +682,7 @@ img{
     .icon-email-white{
         left: 667px;
     }
+
 }
 
 
