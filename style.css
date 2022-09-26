@@ -551,7 +551,7 @@ img{
 }
 
 /*bærbar version - 1500x908*/
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1600px){
     /*index - 1500x908*/
     .intro-title{
         font-size: 80px;
@@ -645,5 +645,7 @@ img{
     .icon-email-white{
         left: 667px;
     }
-    }
+}
+
+
 
