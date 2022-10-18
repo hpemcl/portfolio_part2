@@ -950,10 +950,10 @@ p{
 
 
 .img-dp-old_logo{
-    width: 193px;
+    width: 167px;
     height: 166px;
     top: 374px;
-    right: 248px;
+    right: 261px;
 }
 
 .img-dp-new_logo{
@@ -965,7 +965,7 @@ p{
 
 .img-dp-favicon{
     top: 593px;
-    width: 214px;
+    width: 192px;
     right: 41px;
     height: 176px;
 }
@@ -1115,7 +1115,7 @@ img{
     margin-bottom: 0;
     position: absolute;
     display: grid;
-    grid-template-rows: 74px 77px;
+    grid-template-rows: 74px 120px;
     grid-template-columns: 49% 49%;
     gap: 10px;
     padding: 5px;
@@ -1157,17 +1157,22 @@ img{
     font-size: 25px;
 }
 
-.contact-text{
-    margin-top: 10px;
+.contact-headline{
+    margin-top: 16px;
 }
 
 
 /*footer almindelig - social media icons*/
+.socialmedia-logo{
+    position: absolute;
+    right: 180px;
+    bottom: 70px;
+}
 .icon-small-version{
     height: 30px;
     width: 32px;
     position: relative;
-    right: 10px;
+    right: 20px;
 }
 
 .tiktok{
@@ -1180,14 +1185,10 @@ img{
     width: 45px;
 }
 
-.email{
-    width: 40px;
-    right: 121px;
-    bottom: 0px;
-}
 
 
-.mail-text{
+
+.contact-text{
     font-family: noto sans, sans-serif;
     position: relative;
     margin-right: 45px;
@@ -1198,13 +1199,16 @@ img{
     text-decoration: none;
     text-decoration-line: none;
     list-style: none;
-    bottom: 40px;
-    left: 35px;
-    font-size: 15px;
+    top: 0px;
+    left: 30px;
 }
 
-.mail-text:hover{
+.contact-text:hover{
     color: black;
+}
+
+.contact-text-downloadcv{
+    top: 20px
 }
 
 /*Work page*/
