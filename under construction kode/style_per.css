@@ -1,0 +1,177 @@
+h1{
+    color: white;
+    font-family: SitkaSubheading, Sitka Subheading;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-family: SitkaSubheading, Sitka Subheading;
+    font-size: 20px;
+    text-align: center;
+}
+
+.index_icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    left: 400px;
+}
+
+
+.index_mail{
+    width: 65px;
+}
+
+.index_yt{
+    width: 70px;
+}
+
+.index_logo{
+    position: relative;    
+    top: 150px;
+    right: 100px;
+
+}
+
+/*mobil*/
+@media screen and (max-width: 390px) {
+    .index_logo{
+    position: absolute;  
+    top: 545px;  
+    float: left;
+    right: 63px;
+   
+    }
+
+    .index_icon{
+        left: 0;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+    }
+
+    .index_ig{
+        left: 247px;
+    }
+    
+    .index_gh{
+        left: 132px;
+    }
+    
+    .index_linkedin{
+        top:420px;
+        left: 57px;
+        width: 42px;
+    }
+
+    .index_mail{
+        width: 55px;
+        top: 420px;
+        left: 178px;
+    }
+    
+    .index_yt{
+        width: 60px;
+        left: -2px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:376px) {
+    .index_logo{
+        position: absolute;
+        top: 564px;
+        float: left;
+        right: 46px;
+       
+        }
+    
+        .index_icon{
+            left: 0;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+        }
+    
+        .index_ig{
+            left: 254px;
+        }
+        
+        .index_gh{
+            left: 130px;
+        }
+        
+        .index_linkedin{
+            top:444px;
+            left: 69px;
+            width: 42px;
+        }
+    
+        .index_mail{
+            width: 55px;
+            top: 444px;
+            left: 185px;
+        }
+        
+        .index_yt{
+            width: 60px;
+            left: -2px;
+        }
+
+        h2{
+            width: 80%;
+            margin-left: 39px;
+        }
+
+        h1{
+            font-size: 40px;
+        }
+    
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 416px){
+    .index_logo{
+        position: absolute;  
+        top: 545px;  
+        float: left;
+        right: 63px;
+       
+        }
+    
+        .index_icon{
+            left: 0;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+        }
+    
+        .index_ig{
+            left: 271px;
+        }
+        
+        .index_gh{
+            left: 148px;
+        }
+        
+        .index_linkedin{
+            top:420px;
+            left: 85px;
+            width: 42px;
+        }
+    
+        .index_mail{
+            width: 55px;
+            top: 420px;
+            left: 202px;
+        }
+        
+        .index_yt{
+            width: 60px;
+            left: 13px;
+        }
+}
+
