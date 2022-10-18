@@ -1,7 +1,7 @@
 /*Farver
 Grå ish: #A6A4A8
-Lilla ish: #E8DCF1
-Pink ish: #F8B4B4
+Lilla ish: #dabaf1
+Pink ish: #f4c8c8
 Mørke lilla/brun: #726E75
 Mellem mørk brun: #948b89
 lyse brun: #b6a39e
@@ -13,15 +13,15 @@ hvid: #FFFFFF
 /*font*/
 @font-face{
     font-family: Sitka;
-    src:url(/Fonts/Sitka.ttc)
+    src:url(./Fonts/Sitka.ttc)
 }
 
 
 body{
     
-    background-color: #948B89;
+    background-color: #D6CCCB;
     width: 99%;
-    
+    margin: 0;
     
 }
 
@@ -32,7 +32,7 @@ body{
     right: -110px;
     bottom: -150px;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 1;
     width: 307px;
     height: 538px;
     position: fixed;
@@ -43,7 +43,7 @@ body{
     left: -90px;
     top: -120px;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 1;
     width: 307px;
     height: 260px;
     position: fixed;
@@ -54,12 +54,26 @@ body{
     left: -160px;
     bottom: 0;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 1;
     width: 307px;
     height: 260px;
     rotate: 300deg;
     position: fixed;
+
 }
+
+.aboutme_pynt-right{
+    right: -100px;
+    bottom: -74px;
+    z-index: -1;
+    opacity: 0.7;
+    width: 307px;
+    height: 287px;
+    position: fixed;
+    margin-right: 0;
+    padding-right: 0;
+}
+
 
 
 
@@ -123,8 +137,8 @@ img{
     left: 1150px;
     
     animation-name: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
-    animation-delay: 0.5s;
-    animation-duration: 2s;
+    animation-delay: 0.1s;
+    animation-duration: 10s;
     --animate-repeat: infinite;
     
     
@@ -146,7 +160,7 @@ img{
   @keyframes slidein {
     from {
         margin-left: 100%;
-        width: 300%;
+        width: 200%;
       }
     
       to {
@@ -154,85 +168,6 @@ img{
         width: 100%;
       }
   }
-
-
-  /*animation på loading page*/
-.loading-page{
-    position: relative;
-    height: 20px;
-    width: 20%;
-    border: 5px solid white;
-    border-radius: 15px;
-    justify-content: center;
-    left: 625px;
-    top: 410px;
-   
-}
-
-.loading-page .progressbar{
-    position: absolute;
-    background-color: black;
-    width: 0px;
-    height: 20px;
-    border-radius: 15px;
-    animation: progres 4s linear;
-   
-
-}
-@keyframes progres{
-    0%{
-      width: 0%;
-    }
-    25%{
-        width: 50%;
-    }
-    50%{
-        width: 75%;
-    }
-    75%{
-        width: 85%;
-    }
-    90%{
-        width: 90%;
-    }
-
-    95%{
-        width: 95%;        
-    }
-
-    100%{
-        width: 100%;
-    }
-}
-
-
-.logo_area-loadingpage{
-    position: absolute;
-    left: 38%;
-    top: 24%;
-    animation: fadeIn 5s;
-    
-}
-
-.img-loadingpage{
-    height: 229px;
-    width: 380px;
-}
-
-@keyframes fadein{
-    0%{
-        opacity: 0;
-      }
-    
-    50%{
-        opacity: 0.9;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-
 
 /*forside*/
 .Intro-forside{
@@ -252,7 +187,7 @@ img{
 }
 
 .forside-title, .forside-txt{
-    color: white;
+    color: black;
 }
 
 .forside-txt{
@@ -278,6 +213,11 @@ img{
 
 .btn-forside{
     display: inline;
+}
+
+.btn-forside:hover{
+    background-color: black;
+    color: white;
 }
 
 button{
@@ -335,7 +275,7 @@ p{
     font-weight: 300;
     font-style: italic;
     font-size: 20px;
-    color: white;
+    color: black;
     position: absolute;
     left: 64px;
     top: 425px;
@@ -347,7 +287,7 @@ p{
     font-weight: 300;
     font-style: italic;
     font-size: 20px;
-    color: white;
+    color: black;
     position: absolute;
     left: 64px;
     top: 472px
@@ -388,7 +328,7 @@ p{
 
 .quote-txt{
     font-family: Inkfree, Ink Free;
-    color: white;
+    color: black;
     font-weight: 100;
     font-size: 80px;
     padding-bottom: 2px;
@@ -432,6 +372,605 @@ p{
     }
 
 
+/*head title on all page*/
+.head-title{
+    display: grid;
+    grid-template-columns: 489px 936px 0px;
+    grid-template-rows: 468px 481px auto;
+    gap: 20px;
+    padding: 45px;
+    margin-right: 0;
+    width: 97%;
+    padding-right: 0;
+
+}
+
+.h1-title{
+    position: relative;
+    font-family: nono sans, sans sarif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    left: 110px;
+    text-align: left;
+    border-bottom: 4px solid black;
+    border-bottom-left-radius: 0;
+    margin-right: 693px;
+
+}
+
+.h1-hobby-title{
+    border-bottom-right-radius: 31px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+
+    
+}
+
+.head-title > .head-section-div-yt, .head-section-div-aboutme{
+    text-align: center;
+    padding: 0 0;
+}
+
+
+
+/*hobby - youtube */
+.h2-title{
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+
+
+.p-paragraf{
+    width: 100%;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22.5px;
+    text-align: left;    
+    color: black;
+    margin: 0;
+    line-height: 30px;
+
+}
+
+.second-paragraf{
+    margin-top: 107px;
+}
+
+.photo-p{
+    width: 100%;
+    margin-top: 0;
+}
+
+.whitebox{
+    background-color: white;
+    width: 90%;
+    margin: 108px 38px 20px;
+    padding: 10px ;
+    border-radius: 5px;    
+    opacity: 0.5;
+    height: 450px;
+    padding-right: 0;
+  
+}
+
+/*hobby - photograph*/
+.hobby-grid-photograph{
+    display: grid;
+    grid-template-columns: 365px 335px 0;
+    grid-template-rows: 98px 481px auto;
+    background-color: #F8B4B4;
+    gap: 20px;
+    padding: 45px 45px 45px 0;
+    width: 97%;
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+
+.hobby-grid-photograph > .head-section-div-photo{
+    text-align: left;
+    padding: 0 0;
+    
+}
+
+.img-photograph-top-left{
+    height: 476px;
+    width: 324px;
+    margin: 0;
+}
+
+.img-photograph-top-middel{
+    height: 481px;
+    width: 298px;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+}
+
+.img-photograph-buttom-right{
+    height: 475px;
+    width: 310px;
+    margin-left: 42px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+}
+
+.badminton-right{
+    margin-left: 428px;
+}
+
+.img-photograph-buttom-left{
+    height: 600px;
+    width: 430px;
+    margin: 0;
+
+}
+
+.img-photograph-buttom-middel{
+    height: 600px;
+    width: 438px;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.hobby-grid-slider{
+    display: grid;
+    grid-template-columns: 489px 550px 308px;
+    grid-template-rows: 83px 481px 200px;
+    gap: 20px;
+    padding: 45px;
+    margin-right: 0;
+    width: 97%;
+    padding-right: 0;
+}
+
+.hobby-grid-slider > .head-section-div-slider{
+    text-align: left;
+    padding: 0 0;
+    
+}
+
+/*hobby - slideshow - billeder*/
+    .slider {
+        width: 326px;
+        height: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+    }
+        
+        .image-container {
+        width: 1500px;
+        height: 501px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+        z-index: 1;
+    }
+    
+    .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        height: 500px;
+        width: 326px;
+    }
+    
+    #slide-1:target ~ .image-container {
+        left: 0px;
+    }
+    
+    #slide-2:target ~ .image-container {
+        left: -326px;
+    }
+    #slide-3:target ~ .image-container {
+        left: -652px;
+    }
+
+    #slide-4:target ~ .image-container {
+        left: -978px;
+    }
+
+    #slide-5:target ~ .image-container {
+        left: 0;
+    }
+
+    #slide-6:target ~ .image-container {
+        left: -326px;
+        
+    }
+
+    #slide-7:target ~ .image-container {
+        left: -652px;
+        
+    }
+    
+    #slide-8:target ~ .image-container {
+        left: -978px;
+        
+    }
+              
+    .buttons {
+        position: relative;
+        top: -20px;
+    }
+              
+    .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: white;
+        margin-top: 70px;
+    }
+
+    
+/*about me*/
+.aboutme-page{
+    grid-template-columns: 489px 403px 494px;
+    grid-template-rows: 126px 268px 200px;
+    row-gap: 10px;
+    padding-top: 100px;
+    
+}
+/*about me - title*/
+.h1-aboutme-title{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    bottom: 20px;
+    left: 50px;
+    width: 78%;
+    color: black;
+    border-bottom-right-radius: 30px;
+    border-bottom: 10px solid white;
+}
+
+/*about me - paragraf*/
+.p-aboutme{
+    font-size: 30px;
+    line-height: 40px;
+    font-style: normal;
+    width: 115%;
+    color: black;
+    text-align: left;
+    left: 0;
+}
+
+/*about me - photo*/
+.photo-aboutme{
+    margin-right: 400px;
+}
+.photo-aboutme-edit{
+    height: 297px;
+    width: 249px;
+}
+
+.h2-aboutme{
+    font-size: 40px;
+    top: 50px;
+    color: black;
+}
+
+.aboutme-mail-txt{
+    top: 10px;
+    color: black;
+    font-family: noto sans, sans-serif;
+    position: relative;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    text-decoration-line: none;
+    list-style: none;
+    bottom: 40px;
+    left: 0px;
+    margin-right: 117px;
+    text-align: center;
+}
+
+.aboutme-mail-txt:hover{
+    color: white;
+}
+
+.mail-icon-aboutme{
+    left: 0px;
+    top: 25px;
+    width: 40px;
+    bottom: 0px;
+    height: 30px;
+    position: relative;
+}
+
+.aboutme-icon{
+    height: 33px;
+    width: 38px;
+    position: relative;
+    right: 61px;
+    top: 34px;
+}
+
+.aboutme-icon-youtube{
+    width: 46px;
+}
+
+.button-style-aboutme{
+    position: relative;
+    
+}
+
+.btn-aboutme{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    width: 30%;
+    top: 50px;
+    margin-left: 10px;
+    left: 100px;
+    
+}
+
+.btn-aboutme:hover{
+    background-color: black;
+    color: white;
+}
+
+.aboutme-logo{
+    position: relative;
+    bottom: 100px;
+    right: 62px;
+    width: 334px;
+    height: 160px;
+}
+
+
+/*school project & designproject*/
+.title-row{
+    display: flex;
+}
+
+.h1-schoolproject-title{
+    top: 150px;
+    width: 25%;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    text-align: center;
+    position: absolute;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #575757;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 5px solid black;
+
+
+
+}
+
+.sp_grid{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 700px ;
+    gap: 20px;
+    width: 101%;
+    margin-top: 300px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+}
+
+.head-section-div-sp{
+    text-align: center;
+    padding: 20px 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 30px;
+    border-bottom: 5px solid black;
+
+}
+
+.sp_grid-dp{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 800px ;
+    gap: 20px;
+    width: 101%;
+    margin-top: 300px;
+    margin-bottom: 40px;
+}
+
+.head-section-div-dp{
+    text-align: center;
+    padding: 20px 20px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 30px;
+    border-bottom: 5px solid black;
+}
+
+
+.head-section-div-sp:hover, .head-section-div-dp:hover{
+    background-color: grey;
+    border-bottom: 5px solid white;
+    color: white;
+}
+
+.background-sp{
+    background-color: white;
+    border-radius: 10px;
+    height: 55px;
+    width: 25%;
+    padding: 10px;
+}
+
+
+
+.h2-sp-title{
+    margin-top: 10px;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: #575757;
+}
+
+.p-main-work, .p-main-work-dp-cheerz, .p-main-work-dp-logo{
+    text-align: center;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 400px;
+    bottom: 10px;
+    line-height: 35px;
+    color: black;
+        
+}
+
+.p-main-work-dp-cheerz{
+    margin-top: 289px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.p-main-work-dp-logo{
+    margin-top: 458px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+.img-sp-exam{
+    width: 460px;
+    height: 309px;
+    left: 2px;
+    margin-top: 102px;
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+.img-sp-exam:hover{
+    opacity: 1;
+}
+
+.img-sp-wordpress{
+    width: 455px;
+    height: 309px;
+    left: 512px;
+    margin-top: 100px;
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+.img-sp-wordpress:hover{
+    opacity: 1;
+}
+
+.img-sp-iværksætter{
+    width: 450px;
+    height: 309px;
+    right: 8px;
+    margin-top: 102px;
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+.img-sp-iværksætter:hover{
+    opacity: 1;
+}
+
+
+/*Design project*/
+.img-dp-cheerz_sort{
+    width: 230px;
+    height: 110px;
+    position: relative;
+    right: 151px;
+    top: 20px;
+}
+
+
+
+.img-dp-cheerz_pb{
+    left: 123px;
+    top: 543px;
+    width: 195px;
+    height: 191px;
+}
+
+.img-dp-cheerz_banner{
+    left: 385px;
+    top: 374px;
+    width: 266px;
+    height: 143px;
+}
+
+.img-dp-cheerz_hvid{
+    width: 230px;
+    height: 110px;
+    left: 400px;
+    top: 598px;
+}
+
+
+.img-dp-old_logo{
+    width: 193px;
+    height: 166px;
+    top: 374px;
+    right: 248px;
+}
+
+.img-dp-new_logo{
+    top: 600px;
+    width: 346px;
+    right: 277px;
+    height: 176px;
+}
+
+.img-dp-favicon{
+    top: 593px;
+    width: 214px;
+    right: 41px;
+    height: 176px;
+}
+
+
 
 
 
@@ -455,13 +994,13 @@ p{
     padding-bottom: 0;
     margin-top: 20px;
     padding-top: 15px;
-    width: 100%;
+    width: 101%;
     font-style: italic;
     height: 2.5rem;    
     text-align: center;
     border-top: 2px solid white;
     color: white;
-    font-family: Sitka, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Sitka, sans-serif ;
 
   }
 
@@ -505,6 +1044,7 @@ img{
 .inner-navbar ul li:nth-child(1){
     float: left;
 }
+
 .inner-navbar ul li:nth-child(2){
     float: left;
    
@@ -520,14 +1060,14 @@ img{
 }
 
 .inner-navbar ul li a{
- color: white;
+ color: black;
  font-size: 1.7em;
  text-transform: uppercase; 
  text-decoration: none;
  display: block;
  padding: 30px 80px;
- font-family: Sitka, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
- 
+ font-family: Sitka;
+ font-weight: 400;
 }
 
 .inner-navbar ul li a:hover{
@@ -535,55 +1075,225 @@ img{
 }
 
 
+
 /*footer - index og loadingpage*/
 .credit-txt{
     color: white;
-    font-family: Sitka, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Sitka, sans-serif;
     position: fixed;
-    border-top: 2px solid white;
+    border-top: 1px solid white;
     padding-top: 12px;
+    padding-bottom: 10px;
     bottom: 0;
+    margin-left: 6px;
     width: 100%;
     text-align: center;
     font-style: italic;
+    z-index: 2;
+    margin-bottom: 0;
 
+}
 
+.loading-page-credit-txt{
+    margin-left: 0;
+    margin-right: 0;
+    width: 101%;
+    position: fixed;
+}
+
+.aboutme-credit-txt{
+    width: 100.6%;
+    position: relative;
 }
 
 /*footer almindelig*/
 .body-footer{
-    background-color: #a6a4a8;
-    padding: 10px 10px 300px 10px;
-    width: 100%;
-    margin-left: -8px;
-    margin-top: 100px;
+    background-color: #F8B4B4;
+    width: 99.5%;
+    left: -3px;
+    margin-top: 0px;
     margin-bottom: 0;
     position: absolute;
+    display: grid;
+    grid-template-rows: 74px 77px;
+    grid-template-columns: 49% 49%;
+    gap: 10px;
+    padding: 5px;
+
 }
 
-* {
-    box-sizing: border-box;
-  }
-  
-  .flex-container-footer-top {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
+.body-footer > .grid-container-footer-left{
     text-align: center;
-  }
-  
-  .flex-item-left-top {
-    background-color: #f1f1f1;
-    padding: 10px;
-    flex: 25%;
+    padding: 2px 0;
+    font-size: 15px;
   }
 
-  
-  .flex-item-right-top {
-    background-color: dodgerblue;
-    padding: 10px;
-    flex: 25%;
-  }
+
+
+/*footer almindelig - logo*/
+.footer-logo{
+    height: 148px;
+    width: 284px;
+    left: 615px;
+
+
+}
+
+.head-text{
+    font-family: noto sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+    margin-bottom: 1px;
+    font-size: 30px;
+}  
+
+/*footer almindelig - head-text*/
+.undertext{
+    font-family: SitkaSubheading, Sitka Subheading;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 23px;
+    font-size: 25px;
+}
+
+.contact-text{
+    margin-top: 10px;
+}
+
+
+/*footer almindelig - social media icons*/
+.icon-small-version{
+    height: 30px;
+    width: 32px;
+    position: relative;
+    right: 10px;
+}
+
+.tiktok{
+    height: 30px;
+    width: 25px;
+}
+
+.youtube{
+    height: 30px;
+    width: 45px;
+}
+
+.email{
+    width: 40px;
+    right: 121px;
+    bottom: 0px;
+}
+
+
+.mail-text{
+    font-family: noto sans, sans-serif;
+    position: relative;
+    margin-right: 45px;
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    text-decoration-line: none;
+    list-style: none;
+    bottom: 40px;
+    left: 35px;
+    font-size: 15px;
+}
+
+.mail-text:hover{
+    color: black;
+}
+
+/*Work page*/
+.work-main{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 0px 420px 20px;
+    gap: 20px;
+    padding: 45px 45px 45px 45px;
+    width: 95%;
+}
+
+.work-main > .head-section-div-work-main{
+    text-align: center;
+    padding: 0 0;
+}
+
+.h1-work-title{
+    position: absolute;
+    font-family: nono sans, sans sarif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    width: 42%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-bottom: 10px solid white;
+    margin-left: 50px;
+    left: 410px;
+
+}
+
+.p-paragraf-main{
+    text-align: center;
+    position: relative;
+    top: 118px;
+    right: 236px;
+    padding: 10px 10px 10px 10px;
+    width: 200%;
+    margin-left: 0;
+    font-size: 30px;
+   
+
+}
+
+/*work page - buttons*/
+.work-buttons{
+    top: 2px;
+    float: right;
+    position: absolute;
+
+}
+.btn-work-main{
+    padding: 20px 20px 20px 20px;
+    background-color: #444054;
+    color: white;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    width: 230px;
+    top: 370px;
+    
+}
+
+.btn_work_school{
+    left: -20px;
+}
+
+.btn_work_design{
+    left: 280px;
+}
+
+.btn_work_design:hover, .btn_work_school:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn_work_style{
+    color: white;
+    text-decoration: none;
+}
+
+.btn_work_style:hover{
+    color: black;
+}
+
 
   
 
@@ -682,6 +1392,8 @@ img{
     .icon-email-white{
         left: 667px;
     }
+
+
 
 }
 
