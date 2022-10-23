@@ -37,7 +37,43 @@ h2{
 
 }
 
-/*mobil*/
+/*Mobile version - Ipad*/
+@media screen and (min-width: 750px) and (max-width:819px) {
+    .index_icon{
+        left: 32px;
+    }
+
+    .index_logo{
+        left: 134px;
+        width: 436px;
+        height: 226px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+}
+
+/*Mobile version - Ipad air*/
+@media screen and (min-width: 820px) and (max-width:900px) {
+    .index_icon{
+        left: 67px;
+    }
+
+    .index_logo{
+        left: 171px;
+        width: 436px;
+        height: 226px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+}
+
+/*Mobile version - Iphone 12pro*/
 @media screen and (max-width: 390px) {
     .index_logo{
     position: absolute;  
@@ -80,6 +116,7 @@ h2{
     }
 }
 
+/*Mobile version - Iphone SE*/
 @media screen and (min-width: 375px) and (max-width:376px) {
     .index_logo{
         position: absolute;
@@ -132,8 +169,8 @@ h2{
     
 }
 
-
-@media screen and (min-width: 376px) and (max-width: 416px){
+/*Mobile version - Iphone XR*/
+@media screen and (min-width: 376px) and (max-width: 415px){
     .index_logo{
         position: absolute;  
         top: 545px;  
@@ -174,4 +211,130 @@ h2{
             left: 13px;
         }
 }
+
+/*Mobile version - Iphone large*/
+@media screen and (min-width: 416px) and (max-width: 500px){
+    .index_icon{
+        left: 10px;
+    }
+
+    .index_mail{
+        left: 69px;
+    }
+
+    .index_yt{
+        left: 52px;
+    }
+
+    .index_logo{
+        height: 150px;
+        width: 292px;
+        left: 45px;
+    }
+}
+
+/*Mobile version - laptop*/
+@media screen and (min-width: 1023px) and (max-width: 1439px){
+    .index_icon{
+        left: 179px;
+    }
+
+    .index_logo{
+        height: 248px;
+        width: 455px;
+        left: 284px;
+        top: 19px;
+    }
+}
+
+/*Mobile version - big laptop*/
+@media screen and (min-width: 1439px) and (max-width: 1500px){
+    .index_icon{
+        left: 179px;
+    }
+
+    .index_logo{
+        height: 248px;
+        width: 455px;
+        left: 284px;
+        top: 19px;
+    }
+}
+
+/*Mobile version - big laptop*/
+@media screen and (min-width: 1501px) and (max-width: 1700px){
+    .index_icon{
+        left: 489px;
+        bottom: 87px;
+    }
+
+    .index_logo{
+        height: 248px;
+        width: 455px;
+        right: 83px;
+        top: 312px;
+    }
+
+    h1{
+        font-size: 70px;
+
+    }
+
+    h2{
+        font-size: 35px;
+    }
+}
+
+/*Mobile version - big laptop*/
+@media screen and (min-width: 1701px) and (max-width: 2000px){
+    .index_icon{
+        left: 600px;
+        bottom: 87px;
+    }
+
+    .index_logo{
+        height: 248px;
+        width: 455px;
+        left: 10px;
+        top: 312px;
+    }
+
+    h1{
+        font-size: 70px;
+
+    }
+
+    h2{
+        font-size: 35px;
+    }
+}
+
+
+
+/*Mobile version - big ass laptop*/
+@media screen and (min-width: 2560px) and (max-width: 3000px){
+    .index_icon{
+        left: 927px;
+        bottom: 109px;
+    }
+
+    .index_logo{
+        height: 248px;
+        width: 455px;
+        left: 323px;
+        top: 296px;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    h1{
+        font-size: 100px;
+    }
+}
+
+
+
+
 
