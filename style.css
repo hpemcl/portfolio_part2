@@ -652,7 +652,7 @@ p{
     }
 
     .buttons-dp a{
-        margin-top: 70px;
+        margin-top: 120px;
     }
 
     
@@ -960,16 +960,16 @@ p{
 
 
 #slide-sortoghvid:target ~ .image-container-dp {
-    left: 150px;
+    left: 1px;
 }
 
 #slide-pb:target ~ .image-container-dp {
-    left: -380px;
+    left: -480px;
     
 }
 
 #slide-banner:target ~ .image-container-dp {
-    left: -970px;
+    left: -1080px;
     
 }
 
@@ -978,16 +978,16 @@ p{
 
 
 #slide-oldlogo:target ~ .image-container-dp {
-    left: -1545px;
+    left: -1600px;
 }
 
 #slide-newlogo:target ~ .image-container-dp {
-    left: -2000px;
+    left: -2200px;
     
 }
 
 #slide-favicon:target ~ .image-container-dp {
-    left: -2500px;
+    left: -2880px;
     
 }
 
@@ -997,7 +997,8 @@ p{
     width: 313px;
     height: 164px;
     top: 20px;
-    margin-right: 200px;
+    margin-right: 295px;
+    left: 130px;
 }
 
 
@@ -1007,6 +1008,7 @@ p{
     height: 303px;
     top: 20px;
     margin-right: 20px;
+    
 }
 
 .img-dp-cheerz_banner{
@@ -1021,14 +1023,15 @@ p{
     width: 313px;
     height: 164px;
     top: 190px;
-    left: -31px;
+    left: 110px;
 }
 
 
 .img-dp-old_logo{
     width: 290px;
     height: 288px;
-    top: 50px;
+    bottom: 200px;
+    left: 810px;
 
 }
 
@@ -1036,7 +1039,7 @@ p{
     bottom: 200px;
     width: 346px;
     height: 176px;
-    left: 1288px;
+    left: 1108px;
 }
 
 .img-dp-favicon{
