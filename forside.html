@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/jsa6uhp.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="icon" type="image/x-icon" href="./photos/favicon.png">
+  <link rel="stylesheet" href="/slicknav/scss/slicknav.scss">
   <script src="java-index.js"></script>
   <title>Front Page | hannahpemclausen</title>
 </head>
@@ -21,7 +22,8 @@
           <a href="forside.html"><img src="portfpolio_logo.png" alt="index_logo_btn"></a>        
         </section>
         <section class="inner-navbar">
-          <ul>
+          <ul id="menu">
+            <li><a href="forside.html">Home</a></li>
             <li><a href="work/work.html">Work</a></li>
             <li><a href="hobby/hobby.html">Hobby</a></li>
             <li><a href="about_me/aboutme.html">About Me</a></li>
@@ -32,18 +34,38 @@
 
 <!--intro to front page - front page -->
       <section class="Intro-forside">
-        <h1 class="forside-title"> Welcome! </h1>
+        <h1 class="forside-title"> HANNAH CLAUSEN </h1>
+        <h1 class="mobile-title">HANNAH CLAUSEN</h1>
         <section class="profile-forside">
-          <img src="./photos/cv_billede.png" class="img" alt="profile_picture">
         
           <section class="forside-photo">
-            <h2 class="forside-txt"> Check out my work and contact me if it looks interesting or download my CV.</h2>
-            <a href="Hannah_Clausen_CV.pdf" download><button class="btn-forside">
-              CV
-            </button></a>
+            <h2 class="forside-txt"> Graphic Designer / Coder | 22 years old <br> 
+              studying as a multimedia designer at Zealand Academy 
+              <br> <br>
+              For more information - contact me or <a href="Hannah_Clausen_CV.pdf" download> download my CV.</a></h2>
+            
 
             </section>
           </section>
+      </section>
+
+      <!--icon genveje - front page -->          
+      <section class="shortcuts-fp">
+        <div class="shortcuts-move-fp">
+          <a href="https://www.instagram.com/hannahpemclausen"><img src="./photos/Icon-awesome-instagram-white-circle.png" class="icon-instagram-white" alt="icon-instagram"></a>
+        </div>
+        <div class="shortcuts-move-fp">
+          <a href="mailto:hannah.clausen21@gmail.com"><img src="./photos/Icon-awesome-mail-white-circle.png" class="icon-email-white" alt="icon-email-"></a>
+        </div>
+        <div class="shortcuts-move-fp">
+          <section class="link-github">
+            <a href="https://www.github.com/hpemcl"><img src="./photos/Icon-awesome-github-white-circle.png" class="icon-github-white" alt="icon-github"></a>
+          </section>
+        </div>
+        <div class="shortcuts-move-fp">
+            <a href="https://www.linkedin.com/in/hannah-clausen/"><img src="./photos/Icon-awesome-linkedin-in-white-circle.png" class="icon-linkedin-white" alt="icon-linkedin"></a>
+        </div>
+
       </section>
 
 <!--row of pictures - front page -->
@@ -97,20 +119,6 @@
           </div>
         </section>
 
-<!--icon genveje - front page -->          
-        <section class="shortcuts-fp">
-          <div class="shortcuts-move-fp">
-            <a href="https://www.instagram.com/hannahpemclausen"><img src="./photos/Icon-awesome-instagram-black.png" class="icon-instagram-white" alt="icon-email-white"></a>
-          </div>
-          <div class="shortcuts-move-fp">
-            <a href="mailto:hannah.clausen21@gmail.com"><img src="./photos/Icon-zocial-email-black.png" class="icon-email-white" alt="icon-email-white"></a>
-          </div>
-          <div class="shortcuts-move-fp">
-            <section class="link-github">
-              <a href="https://www.github.com/hpemcl"><img src="./photos/Icon-awesome-github-black.png" class="icon-github-white" alt="icon-email-white"></a>
-            </section>
-          </div>
-        </section>
 
 <!-- footer - front page-->          
 
@@ -119,15 +127,23 @@
     <img src="./photos/baggrunds-pynt-desktop-left-buttom.png" class="background-pynt-left-buttom" alt="index-background-pynt"> 
   </section>
 
-<footer>        
+        
   <div id="page-container">
     <div id="content-wrap">
     </div>
     <footer id="footer">Coded by Hannah Clausen</footer>
   </div>
             
-      </footer>    
+    
   </section>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="./slicknav/jquery.slicknav.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#menu').slicknav();
+    });
+  </script>
 </body>
 </html>
 

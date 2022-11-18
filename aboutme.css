@@ -1,0 +1,17 @@
+body{
+    background-color: #f4c8c8;
+}
+
+/*navbar*/
+.inner-navbar ul li a{
+    color: black;
+}
+
+.inner-navbar ul li:nth-child(4){
+    float: right;
+    text-decoration: underline;
+    
+}
+
+
+
