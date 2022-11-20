@@ -247,9 +247,26 @@ h4{
 
 
 /*work*/
+.outerbox-work{
+
+}
+
+.inderbox-work{
+
+}
+
+.first-inderbox{
+
+}
+
+.second-inderbox{
+
+}
+
+
 /*about me*/
 .outerbox-aboutme{
-    height: 115vh;
+    height: 120vh;
     margin-bottom: 5vh;
 }
 
@@ -263,7 +280,7 @@ h4{
 }
 
 .inderbox-aboutme{
-    height: 95vh;
+    height: 100vh;
 }
 
 .bottom-box-aboutme{
