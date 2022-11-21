@@ -248,19 +248,100 @@ h4{
 
 /*work*/
 .outerbox-work{
+    height: 200vh;
+    z-index: 3;
+}
 
+.h1-work{
+    font-size: 10vh;
+
+}
+
+.h4-box{
+    font-size: var(--main-font-size);
+    color: var(--main-text-color);
+    width: 200%;
+    text-align: center;
+    margin-right: 100vh;
+    margin-left: 0;
 }
 
 .inderbox-work{
-
+    height: 180vh;
 }
 
 .first-inderbox{
+    border-top: 0.2vh solid var(--main-text-color);
+    border-bottom: 0.2vh solid var(--main-text-color);    
+    width: 196vh;
+    height: 80vh;
+    margin-top: 2vh;
+    display: flex;
+    font-size: 4vh;
+
+    
+}
+
+.first-inderbox > div{
+    background-color: var(--main-button-color);
+    height: 60vh;
+    width: 60vh;
+    border-radius: 2vh;
+    padding: 5vh;
+    margin: 15vh;
+    margin-left: 13vh;
+    margin-top: 5vh;
+    padding-top: 5vh;
 
 }
 
+div{
+    margin-top: 5vh;
+}
+
+.box-headtext{
+    color: var(--main-text-color);
+    width:200%;
+    margin-left: -30vh;
+    margin-top: 8vh;
+    font-size: var(--main-font-size);
+    line-height: var(---main-line-height);
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-weight: var(--main-font-weight);
+    text-transform: var(--secondary-font-transform);
+}
+
+.box-img{
+    height: 40vh;
+    width: 60vh;
+    border-radius:1vh ;
+}
+
+.box-img-photo1{
+   
+}
+
+.box-img-photo2{
+    height: 45vh;
+    width: 64vh;
+    margin-left: -2vh;
+}
+
+
+
 .second-inderbox{
 
+}
+
+.bottom-box-work{
+    height: 10vh;
+}
+
+.paragraf-work{
+    max-width: 95%;
+    margin-top: -5vh;
+    font-size: var(--fourth-font-size);
 }
 
 
