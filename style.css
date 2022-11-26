@@ -202,7 +202,7 @@ h4{
     border: 0.2vh solid var(--main-text-color);
     position: relative;
     height: 85vh;
-    max-width: 196vh;
+    max-width: 197vh;
     text-align: center;
     left: 2vh;
     top:-5vh;
@@ -216,7 +216,7 @@ h4{
     border-right: 0;
     margin-top: 6.5vh;
     height: 66vh;
-    width: 196.2vh;
+    width: 197vh;
 }
 
 .bottom-box{
@@ -1134,75 +1134,87 @@ div{
     }
 
 
-/*index*/
-.outerbox{
-    max-width: 207vh;
+    /*index*/
+    .outerbox{
+        max-width: 207vh;
 
-}
+    }
 
-.inderbox{
-    width: 207vh;
-}
+    .inderbox{
+        width: 207vh;
+    }
 
-.bottom-box{
-    width: 207vh;
-}
+    .bottom-box{
+        width: 207vh;
+    }
 
-.name-inderbox{
-    margin-left: 79vh;
-}
-
-
-
-/*navbar*/
-.navbar{
-    top: 4.8vh;
-    padding: 2vh 25vh 3vh 65vh;
-}
+    .name-inderbox{
+        margin-left: 82vh;
+    }
 
 
-/*work*/
-.outerbox-work{
-    max-width: 205vh;
-}
 
-.first-inderbox{
-    width: 205vh;
-}
+    /*navbar*/
+    .navbar{
+        top: 4.8vh;
+        padding: 2vh 25vh 3vh 65vh;
+    }
 
-.inderbox{
-    width: 205vh;;
-}
 
-.bottom-box-work{
-    height: 20vh;
-    width: 205vh;
-}
+    /*work*/
+    .outerbox-work{
+        max-width: 205vh;
+    }
 
-.second-box{
-    margin-left: 15vh;
-}
+    .first-inderbox{
+        width: 205vh;
+    }
 
-.first-inderbox > div{
-    margin-left: 17vh;
-}
+    .inderbox-work{
+        width: 205vh;;
+    }
 
-.second-inderbox{
-    height: 54vh;
-}
-/*about me*/
-.aboutme-name-inderbox{
-    margin-left: 15vh;
-}
+    .bottom-box-work{
+        height: 20vh;
+        width: 205vh;
+    }
 
-h4{
-    margin-left: 36.6vh;
-}
+    .second-box{
+        margin-left: 15vh;
+    }
 
-.btn{
-    left: 37vh;
-}
-/*socials*/
+    .first-inderbox > div{
+        margin-left: 17vh;
+    }
+
+    .second-inderbox{
+        height: 54vh;
+    }
+    /*about me*/
+    .outerbox-aboutme{
+        max-width: 205vh;
+    }
+
+    .inderbox-aboutme{
+        max-width: 205vh;
+    }
+
+    .bottom-box-aboutme{
+        max-width: 205vh;
+    }
+
+    .aboutme-name-inderbox{
+        margin-left: 15vh;
+    }
+
+    h4{
+        margin-left: 36.6vh;
+    }
+
+    .btn{
+        left: 37vh;
+    }
+    /*socials*/
 
 
 
